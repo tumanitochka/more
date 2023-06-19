@@ -1,0 +1,434 @@
+/* Мои стили */
+
+html{
+    scroll-behavior: smooth;
+    transition: ease 3s;
+}
+
+body{
+    background-color: #162831;
+}
+
+.arrow a{
+    background-color: #fff;
+    color: #162831;
+    opacity: 0.2;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 45px;
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+    z-index: 1000;
+}
+
+.arrow a:hover{
+    background-color: #fff;
+    color: #162831;
+    opacity: 1;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 45px;
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+    z-index: 1000;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    position: absolute;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
+    text-align: center;
+
+    width: 587px;
+    left: 355px;
+    top: 210px;
+}
+
+h2{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+h3{
+    position: absolute;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+ 
+    left: 528px;
+    top: 136px;
+}
+
+h3:before{
+    content: url(/css/img/Rectangle3.png);
+    position: absolute;
+    right: 250px;
+}
+
+h3:after{
+    content: url(/css/img/Rectangle5.png);
+    position: absolute;
+    left: 250px;
+}
+
+div.logo{
+    position: absolute;
+    left: 312px;
+    top: 30px;
+}
+
+div.list{
+    position: absolute;
+    left: 586px;
+    top: 51px;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+li{
+    float: left;
+    padding-right: 50px;
+}
+
+li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+li a:hover{
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+div.click{
+    display: block;
+    position: absolute;
+    left: 1455px;
+    top: 43px;
+}
+
+a.button{
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 36px;
+    font-size: 13px;
+    background: #018ABE;
+    border-radius: 3px;
+}
+
+div.first-screen{
+    position: absolute;
+    width: 1296px;
+    height: 600px;
+    left: 312px;
+    top: 140px;
+
+    background: linear-gradient(0deg, rgba(152, 201, 220, 0.5), rgba(152, 201, 220, 0.5)), url(/css/img/first-screen.png);
+    border-radius: 10px;
+}
+
+div.service{
+    position: absolute;
+    top: 890px;
+    left: 312px;
+}
+
+h2#labe-service{
+    position: absolute;
+    width: 482px;
+    left: 407px;
+}
+
+h2#labe-service:before{
+    content: url(/css/img/Rectangle6.png);
+    position: absolute;
+    right: 452px;
+}
+
+h2#labe-service:after{
+    content: url(/css/img/Rectangle7.png);
+    position: absolute;
+    left: 452px;
+}
+
+.layer1{
+    position: absolute;
+    background: linear-gradient(0deg, rgba(1, 138, 190, 0), rgba(1, 138, 190, 0)), url(/css/img/bg-layer.png) no-repeat center, #8E8E8E;
+    border-radius: 10px;
+    background-size: auto 540px;
+
+    width: 416px;
+    height: 540px;
+    top: 159px;
+}
+
+.layer1 a{
+    display: block;
+    width: 416px;
+    height: 540px;
+}
+
+.layer1 span{
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+
+    position: absolute;
+    top: 456px;
+    left: 50px;
+}
+
+.layer1:hover{
+    position: absolute;
+    background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(/css/img/bg-layer.png) no-repeat center, #8E8E8E;
+    border-radius: 10px;
+    background-size: auto 540px;
+    
+    border-bottom-width: 7px;
+    border-bottom-style: solid;
+    border-bottom-color: #028ABE;
+
+    width: 416px;
+    height: 540px;
+    top: 159px;
+}
+
+.layer2{
+    position: absolute;
+    background: linear-gradient(0deg, rgba(1, 138, 190, 0), rgba(1, 138, 190, 0)), url(/css/img/bg-layer.png) no-repeat center, #8E8E8E;
+    border-radius: 10px;
+
+    width: 415px;
+    height: 258px;
+    top: 159px;
+    left: 440px;
+}
+
+.layer2 a{
+    display: block;
+    width: 415px;
+    height: 258px;
+}
+
+.layer2 span{
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    
+    position: absolute;
+    top: 194px;
+    left: 40px;
+}
+
+.layer2:hover{
+    position: absolute;
+    background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(/css/img/bg-layer.png) no-repeat center, #8E8E8E;
+    border-radius: 10px;
+    
+    border-bottom-width: 7px;
+    border-bottom-style: solid;
+    border-bottom-color: #028ABE;
+
+    width: 415px;
+    height: 258px;
+    top: 159px;
+    left: 440px;
+}
+
+.layer3{
+    position: absolute;
+    background: linear-gradient(0deg, rgba(1, 138, 190, 0), rgba(1, 138, 190, 0)), url(/css/img/bg-layer.png) no-repeat center, #8E8E8E;
+    border-radius: 10px;
+
+    width: 415px;
+    height: 258px;
+    top: 441px;
+    left: 440px;
+}
+
+.layer3 a{
+    display: block;
+    width: 415px;
+    height: 258px;
+}
+
+.layer3 span{
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    
+    position: absolute;
+    top: 218px;
+    left: 40px;
+}
+
+.layer3:hover{
+    position: absolute;
+    background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(/css/img/bg-layer.png) no-repeat center, #8E8E8E;
+    border-radius: 10px;
+    
+    border-bottom-width: 7px;
+    border-bottom-style: solid;
+    border-bottom-color: #028ABE;
+
+    width: 415px;
+    height: 258px;
+    top: 441px;
+    left: 440px;
+}
+
+.layer4{
+    position: absolute;
+    background: linear-gradient(0deg, rgba(1, 138, 190, 0), rgba(1, 138, 190, 0)), url(/css/img/bg-layer.png) no-repeat center, #8E8E8E;
+    border-radius: 10px;
+
+    width: 415px;
+    height: 258px;
+    top: 159px;
+    left: 880px;
+}
+
+.layer4 a{
+    display: block;
+    width: 415px;
+    height: 258px;
+}
+
+.layer4 span{
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    
+    position: absolute;
+    top: 160px;
+    left: 40px;
+}
+
+.layer4:hover{
+    position: absolute;
+    background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(/css/img/bg-layer.png) no-repeat center, #8E8E8E;
+    border-radius: 10px;
+    
+    border-bottom-width: 7px;
+    border-bottom-style: solid;
+    border-bottom-color: #028ABE;
+
+    width: 415px;
+    height: 258px;
+    top: 159px;
+    left: 880px;
+}
+
+.layer5{
+    position: absolute;
+    background: linear-gradient(0deg, rgba(1, 138, 190, 0), rgba(1, 138, 190, 0)), url(/css/img/bg-layer.png) no-repeat center, #8E8E8E;
+    border-radius: 10px;
+
+    width: 415px;
+    height: 258px;
+    top: 441px;
+    left: 880px;
+}
+
+.layer5 a{
+    display: block;
+    width: 415px;
+    height: 258px;
+}
+
+.layer5 span{
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    
+    position: absolute;
+    top: 160px;
+    left: 40px;
+}
+
+.layer5:hover{
+    position: absolute;
+    background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(/css/img/bg-layer.png) no-repeat center, #8E8E8E;
+    border-radius: 10px;
+    
+    border-bottom-width: 7px;
+    border-bottom-style: solid;
+    border-bottom-color: #028ABE;
+
+    width: 415px;
+    height: 258px;
+    top: 441px;
+    left: 880px;
+}
+
+div.review{
+    position: absolute;
+    left: 92px;
+    top: 1739px;
+}
+
+h2#review{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+
+    position: absolute;
+    width: 155px;
+    left: 791px;
+}
+
+h2#review:before{
+    content: url(/css/img/Rectangle6.png);
+    position: absolute;
+    right: 199px;
+}
+
+h2#review:after{
+    content: url(/css/img/Rectangle7.png);
+    position: absolute;
+    left: 199px;
+}
+
+.rev-slider{
+    position: absolute;
+    width: 1736px;
+    height: 585px;
+    top: 1739px;
+    left: 92px;
+}
