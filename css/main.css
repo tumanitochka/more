@@ -433,6 +433,12 @@ h2#review:after{
 
 .slider{
     margin-top: 192px;
+
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
 }
 
 .slide{
@@ -447,3 +453,322 @@ h2#review:after{
 .off{
     opacity: 0.2;
 }
+
+.slide:hover{
+    opacity: 1;
+}
+
+.control{
+    margin-top: 750px;
+}
+
+.control ul{
+    display: flex;
+    justify-content: center;
+}
+
+.control li{
+    float: left;
+    margin-left: 20px;
+}
+
+.about{
+    position: absolute;
+    top: 2600px;
+    left: 839px;
+}
+
+h2#about{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+}
+
+h2#about:before{
+    content: url(/css/img/Rectangle6.png);
+    position: absolute;
+    right: 288px;
+}
+
+h2#about:after{
+    content: url(/css/img/Rectangle7.png);
+    position: absolute;
+    left: 288px;
+}
+
+.about1{
+    position: absolute;
+    top: 266px;
+    width: 466px;
+    height: 365px;
+    
+    left: -417px;
+}
+
+.about1 b{
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.about1 p{
+    color: #fff;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.about2{
+    position: absolute;
+    top: 200px;
+    left: 130px;
+}
+
+.about3{
+    position: absolute;
+    top: 600px;
+    left: -417px;
+}
+
+.about4{
+    position: absolute;
+    top: 640px;
+    left: 180px;
+    width: 466px;
+    height: 365px;
+}
+
+.about4 b{
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.about4 p{
+    color: #fff;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.price{
+    position: absolute;
+    top: 3648px;
+    left: 422px;
+}
+
+h2#price{
+    position: absolute;
+    left: 417px;
+    width: 372px;
+}
+
+h2#price:before{
+    content: url(/css/img/Rectangle6.png);
+    position: absolute;
+    right: 417px;
+}
+
+h2#price:after{
+    content: url(/css/img/Rectangle7.png);
+    position: absolute;
+    left: 417px;
+}
+
+.marker{
+    position: absolute;
+    top: 303px;
+    width: 378px;
+}
+
+.marker p{
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.marker span{
+    float: right;
+}
+
+.marker p:before{
+    content: url(/css/img/Rectangle27.png);
+    position: absolute;
+    left: -40px;
+}
+
+.img{
+    position: absolute;
+    top: 200px;
+    left: 550px;
+}
+
+.copy{
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 140%;
+    /* or 29px */
+
+    text-align: center;
+}
+
+.contact{
+    position: absolute;
+    top: 4412px;
+    left: 312px;
+}
+
+.contact_item1{
+    background: #018ABE;
+    border-radius: 10px;
+
+    width: 392px;
+    height: 280px;
+
+    position: absolute;
+    left: 904px;
+    top: 0px;
+    width: 390px;
+    padding: 15px 0 0 85px;
+}
+
+.contact_item1 a{
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    color: #018ABE;
+
+    position: absolute;
+    width: 155px;
+    height: 36px;
+    left: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact_item1 b{
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+
+    margin-left: -40px;
+}
+
+.contact_item1 p{
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+
+    padding: 10px 0;
+}
+
+.contact_item2{
+    background: #018ABE;
+    border-radius: 10px;
+
+    width: 392px;
+    height: 280px;
+
+    position: absolute;
+    left: 904px;
+    top: 304px;
+    width: 390px;
+    padding: 20px 0 0 85px;
+}
+
+.contact_item2 a{
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    color: #018ABE;
+
+    position: absolute;
+    width: 155px;
+    height: 36px;
+    left: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact_item2 b{
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+
+    margin-left: -40px;
+}
+
+.contact_item2 p{
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+
+    padding: 10px 0;
+}
+
+#item1:before{
+    content: url(/css/img/Vector.png);
+    position: absolute;
+    left: 45px;
+}
+
+#item2:before{
+    content: url(/css/img/Vector2.png);
+    position: absolute;
+    left: 45px;
+}
+
+#item3:before{
+    content: url(/css/img/Vector3.png);
+    position: absolute;
+    left: 45px;
+}
+
+footer{
+    position: absolute;
+    width: 1380px;
+    height: 19px;
+    left: 312px;
+    top: 5106px;    
+}
+
+.copyrite{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+}
+
+.copyrite span{
+    float: right;
+}
+
+.map{
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    }
