@@ -747,7 +747,7 @@ h2#price:after{
     left: 45px;
 }
 
-footer{
+footer.index{
     position: absolute;
     width: 1380px;
     height: 19px;
@@ -767,8 +767,153 @@ footer{
     float: right;
 }
 
-.map{
-    border-radius: 20px;
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    }
+/* Новости */
+hr{
+    width: 1296px;
+}
+
+#new{
+    margin-top: 120px;
+}
+
+#heading{
+    color: #fff;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+}
+
+#heading:before{
+    content: url(/css/img/Rectangle6.png);
+    margin-right: 45px;
+}
+
+#heading:after{
+    content: url(/css/img/Rectangle7.png);
+    margin-left: 45px;
+}
+
+.cover{
+    background: linear-gradient(0deg, rgba(1, 138, 190, 0), rgba(1, 138, 190, 0)), url(/css/img/bg-layer.png);
+    border-radius: 10px;    
+}
+
+.cover:hover{
+    background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(/css/img/bg-layer.png);
+    border-radius: 10px;
+}
+
+.cover a{
+    display: block;
+    width: 416px;
+    height: 258px;
+}
+
+.cover b{
+    color: #FFFFFF;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 140%;
+
+    position: absolute;
+    top: 199px;
+    left: 35px;
+}
+
+span.date{
+    background: #018ABE;
+    border-radius: 5px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 135%;
+    padding: 6px 12px;
+
+    position: absolute;
+    left: 35px;
+    top: 30px;
+}
+
+.one{
+    position: absolute;
+    width: 416px;
+    height: 258px;
+    left: 312px;
+    top: 299px;
+}
+.two{
+    position: absolute;
+    width: 416px;
+    height: 258px;
+    left: 752px;
+    top: 299px;
+}
+
+.three{
+    position: absolute;
+    width: 416px;
+    height: 258px;
+    left: 1192px;
+    top: 299px;
+}
+
+.foure{
+    position: absolute;
+    width: 416px;
+    height: 258px;
+    left: 312px;
+    top: 581px; 
+}
+
+.five{
+    position: absolute;
+    width: 416px;
+    height: 258px;
+    left: 752px;
+    top: 581px;
+}
+
+.six{
+    position: absolute;
+    width: 416px;
+    height: 258px;
+    left: 1192px;
+    top: 581px;
+}
+
+hr.end{
+    position: absolute;
+    top: 959px;
+    left: 312px;
+    bottom: 30px;
+}
+
+footer{
+    position: absolute;
+    top: 1019px;
+    left: 312px;
+    height: 40px;
+
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+}
+
+span.end{
+    position: absolute;
+    left: 1120px;
+    width: 157px;
+}
+
+span.end a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: underline;
+}
