@@ -427,8 +427,23 @@ h2#review:after{
 
 .rev-slider{
     position: absolute;
-    width: 1736px;
-    height: 585px;
-    top: 1739px;
+    top: 150px;
     left: 92px;
+}
+
+.slider{
+    margin-top: 192px;
+}
+
+.slide{
+    background: #018ABE;
+    padding: 40px 45px;
+    float: left;
+    margin-left: 50px;
+    width: 400px;
+    height: auto;
+}
+
+.off{
+    opacity: 0.2;
 }
